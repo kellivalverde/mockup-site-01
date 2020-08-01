@@ -43,7 +43,7 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-serif: "Marcellus", serif;
-  --font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: "Nunito", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -67,7 +67,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: var(--font-family-sans-serif);
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 400;
   line-height: 1.5;
   color: var(--fc-secondary);
@@ -109,14 +109,19 @@ abbr[data-original-title] {
           text-decoration-skip-ink: none;
 }
 
-#about img {
-margin-right: 5%;
-height: 312px;
+#sara-photo {
+margin: 5%;
+width: 25vw;
+opacity: 80%;
 }
 
-#about p {
-  padding-top: 2rem ;
+#feather {
+  width: 15vw;
 }
+
+/* #about p {
+  padding-top: 2rem ;
+} */
 
 address {
   margin-bottom: 1rem;
@@ -6144,6 +6149,16 @@ a.close.disabled {
   background-color:  var(--fc-accent) !important;
 }
 
+.bg-contact {
+  background: url("../img/unsplash/jess-bailey-q10VITrVYUM-unsplash-40.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
@@ -6201,7 +6216,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background:linear-gradient(white, var(--fc-accent-10)) !important;
+  background:linear-gradient(white 50%, var(--fc-accent-10) 100%) !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
