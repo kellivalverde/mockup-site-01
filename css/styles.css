@@ -2088,9 +2088,9 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #fbc2b3;
+  border-color: var(--fc-accent);
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.2rem var(--fc-accent);
 }
 .form-control::-webkit-input-placeholder {
   color: var(--fc-primary);
@@ -2523,7 +2523,7 @@ textarea.form-control {
 }
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.2rem var(--fc-accent);
 }
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
@@ -3587,10 +3587,10 @@ input[type=button].btn-block {
   background-color:  var(--fc-accent);
 }
 .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.2rem var(--fc-accent);
 }
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #fbc2b3;
+  border-color: var(--fc-accent);
 }
 .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
   color: #fff;
@@ -3711,9 +3711,9 @@ input[type=button].btn-block {
           appearance: none;
 }
 .custom-select:focus {
-  border-color: #fbc2b3;
+  border-color: var(--fc-accent);
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.2rem var(--fc-accent);
 }
 .custom-select:focus::-ms-value {
   color: #495057;
@@ -3769,8 +3769,8 @@ input[type=button].btn-block {
   opacity: 0;
 }
 .custom-file-input:focus ~ .custom-file-label {
-  border-color: #fbc2b3;
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+  border-color: var(--fc-accent);
+  box-shadow: 0 0 0 0.2rem var(--fc-accent);
 }
 .custom-file-input[disabled] ~ .custom-file-label, .custom-file-input:disabled ~ .custom-file-label {
   background-color: #e9ecef;
@@ -3827,13 +3827,13 @@ input[type=button].btn-block {
   outline: none;
 }
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem var(--fc-accent);
 }
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem var(--fc-accent);
 }
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem var(--fc-accent);
 }
 .custom-range::-moz-focus-outer {
   border: 0;
@@ -4700,7 +4700,7 @@ input[type=button].btn-block {
 .page-link:focus {
   z-index: 3;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+  box-shadow: 0 0 0 0.2rem var(--fc-accent);
 }
 
 .page-item:first-child .page-link {
