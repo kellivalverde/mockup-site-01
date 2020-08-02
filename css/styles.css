@@ -2106,23 +2106,23 @@ pre code {
   box-shadow: 0 0 0 0.2rem var(--fc-accent);
 }
 .form-control::-webkit-input-placeholder {
-  color: var(--fc-primary);
+  color: var(--fc-text);
   opacity: 1;
 }
 .form-control::-moz-placeholder {
-  color: var(--fc-primary);
+  color: var(--fc-text);
   opacity: 1;
 }
 .form-control:-ms-input-placeholder {
-  color: var(--fc-primary);
+  color: var(--fc-text);
   opacity: 1;
 }
 .form-control::-ms-input-placeholder {
-  color: var(--fc-primary);
+  color: var(--fc-text);
   opacity: 1;
 }
 .form-control::placeholder {
-  color: var(--fc-primary);
+  color: var(--fc-text);
   opacity: 1;
 }
 .form-control:disabled, .form-control[readonly] {
@@ -10269,7 +10269,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(206, 46, 65, 0.9);
+  background: rgba(30, 144, 255, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
