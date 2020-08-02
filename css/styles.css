@@ -115,9 +115,9 @@ abbr[data-original-title] {
   }
 
 
-#sara-photo {
+#founder-photo {
 margin: 5%;
-width: 25vw;
+width: 40%;
 opacity: 80%;
 }
 
@@ -2026,9 +2026,9 @@ pre code {
     color: var(--fc-accent) !important;
   }
   
-  #sara-photo {
+  #founder-photo {
   margin: 5%;
-  width: 50vw;
+  width: 40%;
   }
   
   #feather {
@@ -2046,7 +2046,7 @@ pre code {
     border: 0;
   }
 
-  
+
 
 }
 @media (max-width: 1199.98px) {
@@ -4193,10 +4193,10 @@ input[type=button].btn-block {
     padding-left: 0;
   }
 
-  #about-me-container {
-    display: flex;
+  #about-container {
+    /* display: flex; */
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
   }
   
@@ -7891,6 +7891,20 @@ button.bg-dark:focus {
 .pl-5,
 .px-5 {
   padding-left: 3rem !important;
+}
+
+
+
+
+
+.pl-10,
+.px-10 {
+  padding-left: 10%!important;
+}
+
+.pr-10,
+.pr-10 {
+  padding-right: 10% !important;
 }
 
 .m-n1 {
