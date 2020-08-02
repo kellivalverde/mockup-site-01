@@ -104,9 +104,37 @@
 
                 <div class="col-md d-flex justify-content-center text-center">
                     <div class="p-5 m-auto">
-                        <h2 class="align-middle blog-block align-middle text-muted font-weight-light">Want to know more?<br>Check out our
-                            <a href="#">blog</a>.</h2>
+                        <h2 class="align-middle blog-block align-middle text-muted font-weight-light">Want to know
+                            more?<br>Check out our
+                            <a href="#"  data-toggle="modal" data-target="#exampleModalCenter">blog</a>.</h2>
+                        <!-- Button trigger modal -->
+                        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                            Launch demo modal
+                        </button> -->
                     </div>
+                   
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Blog coming soon!</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-md p-0">
                     <div>
@@ -118,8 +146,6 @@
             </div>
         </div>
     </section>
-
-
 
     <!-- Portfolio-->
     <!-- <div id="portfolio">
@@ -240,7 +266,8 @@
             <form>
                 <div class="form-group form-actions">
                     <label class="col-form-label font-weight-bold" for="exampleFormControlInput1">Full Name</label>
-                    <input type="name" class="form-control text-muted" id="exampleFormControlInput1" placeholder="Full Name">
+                    <input type="name" class="form-control text-muted" id="exampleFormControlInput1"
+                        placeholder="Full Name">
                 </div>
                 <div class="form-group">
                     <label class="col-form-label font-weight-bold" for="exampleFormControlInput1">Email</label>
@@ -262,7 +289,8 @@
     <!-- Footer-->
     <footer class="bg-dark py-3">
         <div class="container">
-            <div class="small text-center text-white-50"> &copy; <span id="year"></span> FinaCatalysts | Kelli Valverde </div>
+            <div class="small text-center text-white-50"> &copy; <span id="year"></span> FinaCatalysts | Kelli Valverde
+            </div>
         </div>
     </footer>
 
